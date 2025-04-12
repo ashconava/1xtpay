@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>XtPay Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+
+    .container {
+      margin-top: 40px;
+      background-color: #1c1c1c;
+      padding: 30px 20px;
+      border-radius: 15px;
+      width: 90%;
+      max-width: 400px;
+      box-shadow: 0 0 10px #00bcd4;
+    }
+
+    .scanner {
+      height: 200px;
+      background-color: #2a2a2a;
+      border: 2px dashed #00bcd4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+      border-radius: 10px;
+    }
+
+    .scanner p {
+      color: #aaa;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      background-color: #00bcd4;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.2s ease-in-out;
+    }
+
+    .btn:hover {
+      background-color: #0097a7;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #00bcd4;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Welcome to XtPay</h2>
+
+    <div class="scanner">
+      <p>📷 QR Scanner Placeholder</p>
+    </div>
+
+    <button class="btn" onclick="alert('Send Money Clicked')">Send Money</button>
+    <button class="btn" onclick="alert('Receive Money Clicked')">Receive Money</button>
+    <button class="btn" onclick="alert('Check Wallet Balance Clicked')">Check Wallet Balance</button>
+  </div>
+
+</body>
+</html>
